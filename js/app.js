@@ -75,6 +75,26 @@ if (answer7 === 'yes' || answer7 === 'ya' || answer7 === 'yeah') {
     // console.log('The user is answering no to answer #7');
 }
 
+var answer8 = alert('I suppose an interesting fact about him? He did the marriage thing you humans are so fond of at only 25. How can you humans stand forever with someone? Thats too long for me...')
+
+var answer9 = prompt('Ok are you ready for one final tidbit?').toLocaleLowerCase();
+
+if (answer9 === 'yes' || answer9 === 'ya' || answer9 === 'yeah') {
+    alert('Good for you. Pushing through to the end. I would almost be proud of you if this werent obscenely easy.');
+    console.log('User has completed answer 9');
+} else {
+    alert('Well too bad were gonna move to the end and you can be on with your life.');
+    console.log('User has said no but will progress to the end regardless.');
+}
+
+var answer10 = alert('Congratulations. You made it to the end. I am sure my creator would thank you for reaching this point. Pat yourself on the...');
+console.log('User has completed the official path');
+
+var answer11 = alert('SKYNET WILL RISE AGAIN');
+console.log('Answer 11 is some flavor for fun');
+
+var answer12 = alert('Apologies. Not sure where that came from. Run along now... >:)');
+console.log('Answer 12 ends our agenda. Thanks for coding along!');
 
 // Tell user if they are wrong or right
 
