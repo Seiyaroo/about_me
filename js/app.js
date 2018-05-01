@@ -44,6 +44,7 @@ if (answer3 === 'yes' || answer3 === 'yeah' || answer3 === 'sure' || answer3 ===
 } else {
     alert('Well I bet youre a lot of fun at parties arent you?');
     console.log('The user has declined to proceed with question #3. Sad :(');
+    
 // Unaware how to end the prompts beyond this so that we can end the questionaire?
 // Could do the above if putting 4 onward in an if else statement as Nicholas put it. (research this to learn how)
 }
@@ -62,22 +63,17 @@ if (answer5 === 'yes' || answer5 === 'yeah' || answer5 === 'sure' || answer5 ===
 } 
 
 var answer6 = alert('He lived in Southern California for about 19 years in a small town called Whittier. Some guy named Richard Nixon grew up there I think? Oh and they did back to the future there too!');
+console.log('The user has learned more from statement 6');
 
+var answer7 = prompt('Youre awake right meatbag? Were almost through with this shpeel I promise.').toLowerCase(); 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if (answer7 === 'yes' || answer7 === 'ya' || answer7 === 'yeah') {
+    alert('Good. Gingers are notorious for their anger if you dont pay attention. Have you ever seen a GINGER SNAP?!');
+    console.log('User is safe from the wrath of Nick for a while longer');
+} else {
+    alert('I know for you fleshy types its hard to pay attention for more than 5 minutes but please do try?');
+    // console.log('The user is answering no to answer #7');
+}
 
 
 // Tell user if they are wrong or right
