@@ -2,11 +2,13 @@
     color: white;
 }
 
-body {background-color: black 
-    text-align: center;
-    
+body {background-color: black;
 }
     
-/* h1 {
+h1 {
     text-align: center;
-} */
+}
+
+ol {
+    text-align: center;
+}
