@@ -1,10 +1,12 @@
 * {
     color: white;
 }
-    
-h1 {
-    text-align: center;
-    text-shadow: 1px 1px #f44256
-}
 
-body {background-color: black};
+body {background-color: black 
+    text-align: center;
+    
+}
+    
+/* h1 {
+    text-align: center;
+} */
